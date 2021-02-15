@@ -1,9 +1,7 @@
 #!/bin/bash -e
 
-if (!(systemctl -q is-active bluealsa-aplay) &&
-!(systemctl -q is-active hostapd) &&
-!(systemctl -q is-active shairport-sync) &&
-!(systemctl -q is-active gmediarender)) then
+if [ ! -f /etc/passcheck ]; then
+
 echo "Select new passwort"
 echo "---------------------------------------------"
 sudo passwd pi;
@@ -16,20 +14,18 @@ sudo raspi-config nonint do_hostname ${HOSTNAME:-$(hostname)}
 CURRENT_PRETTY_HOSTNAME=$(hostnamectl status --pretty)
 read -p "Pretty hostname [${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}]: " PRETTY_HOSTNAME
 sudo hostnamectl set-hostname --pretty "${PRETTY_HOSTNAME:-${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}}"
+echo "192.168.40.1 simple.audio" >> /etc/hosts
+echo "set" > /etc/passcheck;
 fi;
 
-echo "Update OS?"
+echo "Update raspian? [y/n] >> "
 read REPLYUPDATE
-
-echo
-echo "Installing components"
 echo "---------------------------------------------"
 if [[ "$REPLYUPDATE" =~ ^(yes|y|Y)$ ]]; then sudo apt-get install update; fi;
 if [[ "$REPLYUPDATE" =~ ^(yes|y|Y)$ ]]; then sudo apt-get install upgrade; fi;
 
 echo
 echo -n "----------------------------------------------------------------"
-echo -n "Installation finished. Reboot now? [y/N] "
+echo -n "Installation finished. You may reboot now.. Reboot? >> [y/N] "
 read REPLY
-if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
-sudo reboot
+if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then sudo reboot; fi;
