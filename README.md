@@ -22,7 +22,7 @@ After installation it offers the following functionalities:
 
 ## How to use
 
-After installing simply reboot the pi, access the configuration page via www.rampli.fy and follow the steps.
+After installing simply reboot the pi, connect to its hotspot "Ramplify" and access the configuration page via www.rampli.fy before or after teaching WIFI.
 
 ## Image Installation
 
