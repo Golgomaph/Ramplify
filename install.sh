@@ -18,14 +18,12 @@ echo "192.168.40.1 simple.audio" >> /etc/hosts
 echo "set" > /etc/passcheck;
 fi;
 
-echo "Update raspian? [y/n] >> "
+echo -n "Update raspian? [y/n] >> "
 read REPLYUPDATE
-echo "---------------------------------------------"
 if [[ "$REPLYUPDATE" =~ ^(yes|y|Y)$ ]]; then sudo apt-get install update; fi;
 if [[ "$REPLYUPDATE" =~ ^(yes|y|Y)$ ]]; then sudo apt-get install upgrade; fi;
 
 echo
-echo -n "----------------------------------------------------------------"
 echo -n "Installation finished. You may reboot now.. Reboot? >> [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then sudo reboot; fi;
