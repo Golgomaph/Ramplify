@@ -2,9 +2,16 @@
 
 This is a inofficial extension of nico kaisers rpi-audio-receiver.
 
-- Raspberry Pi with Bluetooth support (tested with Raspberry Pi 3, 4 and Zero W) or USB dongle (highly recommended!)
-- Raspberry Pi OS Buster Lite (tested with August 2020 version)
-- Internal audio, HDMI, USB or I2S Audio adapter (tested with [Adafruit USB Audio Adapter](https://www.adafruit.com/product/1475),  [pHAT DAC](https://shop.pimoroni.de/products/phat-dac), and [HifiBerry DAC+](https://www.hifiberry.com/products/dacplus/))
+Ramplify offers funcitonality for streaming audio via bluetooth, airplay and upnp to your raspberry pi and to other devices connected to it. This is possible through nico kaiser and his github repo, see #references.
+
+Ramplify can be installed via image or via standard package installation directly from github. 
+
+After installation it offers the following functionalities:
+- Automated Access Point if no WIFI is detected after Boot
+- Always reachable homepage hosted by the pi which can be accessed with www.rampli.fy
+  - Choose streaming functionalities you need, skip installing others (f.e. no upnp)
+  - Learn new wifi networks / update wifi credentials
+  - Further functionalities, including output-change on raspberry (I2S, 3.5mm-jack, HDMI)
 
 ## Package Installation on stock debian
 
@@ -12,6 +19,10 @@ This is a inofficial extension of nico kaisers rpi-audio-receiver.
     git clone https://github.com/Golgomaph/ramplify.git
     cd ramplify
     sudo ./install.sh
+
+## How to use
+
+After installing simply reboot the pi, access the configuration page via www.rampli.fy and follow the steps.
 
 ## Image Installation
 
