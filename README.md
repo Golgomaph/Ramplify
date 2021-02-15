@@ -8,8 +8,6 @@ This is a inofficial extension of nico kaisers rpi-audio-receiver.
 
 ## Package Installation on stock debian
 
-The installation script asks whether to install each component.
-
     sudo apt-get install git
     git clone https://github.com/Golgomaph/ramplify.git
     cd ramplify
