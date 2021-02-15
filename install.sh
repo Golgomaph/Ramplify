@@ -22,7 +22,7 @@ echo -n "Update raspian? [y/n] >> "
 read REPLYUPDATE
 if [[ "$REPLYUPDATE" =~ ^(yes|y|Y)$ ]]; then sudo apt-get install update; fi;
 if [[ "$REPLYUPDATE" =~ ^(yes|y|Y)$ ]]; then sudo apt-get install upgrade; fi;
-
+sudo ./install_ap.sh
 echo -n "Installation finished. You may reboot now.. Reboot? >> [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
