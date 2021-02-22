@@ -27,7 +27,7 @@ After installing simply reboot the pi, connect to its hotspot "Ramplify" and acc
 ## Image Installation
 
 Download the file from OneDrive and flash it to an empty sd card. After booting (may take a while) the hotspot should open automatically. Setup wifi and enjoy!
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EeGf9gxBA99CplUkhdmihwMB-Zg190lrX_9iSLIpoL6Diw?e=UN9q1Q
+Download: https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EeGf9gxBA99CplUkhdmihwMB-Zg190lrX_9iSLIpoL6Diw?e=UN9q1Q
 
 ## References
 
