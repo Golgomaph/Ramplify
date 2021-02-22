@@ -15,10 +15,7 @@ After installation it offers the following functionalities:
 
 ## Package Installation on stock debian
 
-    sudo apt-get install git
-    git clone https://github.com/Golgomaph/ramplify.git
-    cd ramplify
-    sudo ./install.sh
+to be implemented..
 
 ## How to use
 
