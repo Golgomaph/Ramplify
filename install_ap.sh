@@ -4,7 +4,7 @@ apt-get install hostapd wpasupplicant dnsmasq -y
 update-rc.d -f hostapd remove
 update-rc.d -f dnsmasq remove
 
-cat ./templates/interfaces.template >> /etc/network/interfaces
+cat ./templates/interfaces.template >> /etc/network/interface
 
 sudo raspi-config nonint do_boot_wait 0
 
