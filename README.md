@@ -15,7 +15,10 @@ After installation it offers the following functionalities:
 
 ## Package Installation on stock debian
 
-to be implemented..
+sudo apt-get install git
+git clone https://github.com/Golgomaph/Ramplify
+cd Ramplify
+sudo ./install.sh
 
 ## How to use
 
