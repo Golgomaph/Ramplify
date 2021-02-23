@@ -18,7 +18,10 @@ CURRENT_PRETTY_HOSTNAME="Ramplify"
 sudo hostnamectl set-hostname --pretty "${PRETTY_HOSTNAME:-${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}}"
 
 echo "192.168.40.1 ramplify.audio" >> /etc/hosts
-echo "interface eth0static ip_address=192.168.40.1/24" >> /etc/dhcpcd.conf
+echo "interface wlan0" >> /etc/dhcpcd.conf
+echo "static ip_address=192.168.40.1" >> /etc/dhcpcd.conf
+echo "static routers=192.168.0.1" >> /etc/dhcpcd.conf
+echo "static domain_name_servers=8.8.8.8 8.8.4.4" >> /etc/dhcpcd.conf
 echo "set" > /etc/passcheck;
 
 
