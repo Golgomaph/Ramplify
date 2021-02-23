@@ -23,11 +23,11 @@ fi;
 
 echo "Update raspian"
 echo "---------------------------------------------"
-sudo apt-get install update
+sudo apt-get update
 
 echo "Upgrade raspian"
 echo "---------------------------------------------"
-sudo apt-get install upgrade
+sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y;
 
 #sudo ./install_ap.sh
 echo -n "Installation finished. You may reboot now.. Reboot? >> [y/N] "
