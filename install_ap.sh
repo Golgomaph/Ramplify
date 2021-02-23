@@ -1,3 +1,5 @@
+#!/bin/bash -e
+
 echo "Installing ap"
 apt-get install hostapd wpasupplicant dnsmasq
 update-rc.d -f hostapd remove
