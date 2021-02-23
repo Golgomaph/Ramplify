@@ -1,4 +1,5 @@
 interface=wlan0
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
 # use rtl driver if you're using a WiPi, the nl driver if you're
 # using an RPi3 onboard wifi chip.
 #driver=rtl871xdrv
