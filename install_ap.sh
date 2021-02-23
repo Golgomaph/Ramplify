@@ -19,7 +19,7 @@ cat ./templates/hostapd.template >> /etc/default/hostapd
 echo "Hostapd changed"
 
 echo "---------------------------------------------"
-cat ./templates/hostapd.conf.template >> /etc/hostapd/hostapd/hostapd.conf
+cat ./templates/hostapd.conf.template >> /etc/hostapd/hostapd.conf
 echo "Hostapd.conf changed"
 
 echo "---------------------------------------------"
