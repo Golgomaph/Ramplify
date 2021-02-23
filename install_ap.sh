@@ -7,7 +7,7 @@ update-rc.d -f hostapd remove
 update-rc.d -f dnsmasq remove
 
 echo "---------------------------------------------"
-cat ./templates/interface.template >> /etc/network/interfaces
+cat ./templates/interfaces.template >> /etc/network/interfaces
 echo "Interface changed"
 
 echo "---------------------------------------------"
