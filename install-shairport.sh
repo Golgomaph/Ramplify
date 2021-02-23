@@ -27,9 +27,11 @@ cat <<EOF > "/etc/shairport-sync.conf"
 general = {
   name = "${PRETTY_HOSTNAME}";
 }
+
 alsa = {
 //  mixer_control_name = "Softvol";
 }
+
 sessioncontrol = {
   session_timeout = 20;
 };
