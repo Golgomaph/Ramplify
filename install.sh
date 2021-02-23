@@ -17,7 +17,7 @@ CURRENT_PRETTY_HOSTNAME=$(hostnamectl status --pretty)
 CURRENT_PRETTY_HOSTNAME="Ramplify"
 sudo hostnamectl set-hostname --pretty "${PRETTY_HOSTNAME:-${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}}"
 
-echo "192.168.40.1 rampli.fy" >> /etc/hosts
+echo "192.168.40.1 ramplify.audio" >> /etc/hosts
 echo "set" > /etc/passcheck;
 fi;
 
