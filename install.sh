@@ -18,7 +18,10 @@ CURRENT_PRETTY_HOSTNAME="Ramplify"
 sudo hostnamectl set-hostname --pretty "${PRETTY_HOSTNAME:-${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}}"
 
 echo "192.168.40.1 ramplify.audio" >> /etc/hosts
+echo "interface eth0static ip_address=192.168.40.1" >> /etc/dhcpcd.conf
 echo "set" > /etc/passcheck;
+
+
 fi;
 
 echo "Update raspian"
