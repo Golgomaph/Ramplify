@@ -7,20 +7,20 @@ update-rc.d -f hostapd remove
 update-rc.d -f dnsmasq remove
 
 echo "---------------------------------------------"
-echo "Interface changed"
 cat ./templates/interface.template >> /etc/network/interfaces
+echo "Interface changed"
 
 echo "---------------------------------------------"
-echo "Setting the boot option wait for network"
 sudo raspi-config nonint do_boot_wait 0
+echo "Setting the boot option wait for network"
 
 echo "---------------------------------------------"
-echo "Hostapd changed"
 cat ./templates/hostapd.template >> /etc/default/hostapd
+echo "Hostapd changed"
 
 echo "---------------------------------------------"
-echo "Hostapd.conf changed"
 cat ./templates/hostapd.conf.template >> /etc/hostapd/hostapd/hostapd.conf
+echo "Hostapd.conf changed"
 
 echo "---------------------------------------------"
 echo "Installing finished"
