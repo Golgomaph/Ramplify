@@ -1,0 +1,6 @@
+  
+network={
+	ssid="{{ wifi_ssid }}"
+	psk="{{ wifi_passcode }}"
+	key_mgmt=WPA-PSK
+}
