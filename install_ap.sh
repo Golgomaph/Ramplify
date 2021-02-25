@@ -17,7 +17,8 @@ cat ./templates/hostapd.conf.template >> /etc/hostapd/hostapd.conf
 #hostapd -d /etc/hostapd/hostapd.conf
 cat ./templates/rc.local.template >> /etc/rc.local
 
-
+sudo systemctl unmask hostapd
+sudo systemctl enable hostapd
 service hostapd start
 ifconfig wlan0 192.168.40.1
 service dnsmasq start
