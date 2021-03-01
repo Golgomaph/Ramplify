@@ -33,6 +33,8 @@ alsa = {
 }
 
 sessioncontrol = {
+  run_this_before_play_begins = "/etc/bt_end.sh";
+  run_this_after_play_ends = "/etc/bt_start.sh";
   session_timeout = 20;
 };
 EOF
