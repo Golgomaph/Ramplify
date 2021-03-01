@@ -82,12 +82,14 @@ if [[ ! $NAME =~ ^\"([0-9A-F]{2}[:-]){5}([0-9A-F]{2})\"$ ]]; then exit 0; fi
 action=$(expr "$ACTION" : "\([a-zA-Z]\+\).*")
 if [ "$action" = "add" ]; then
     bluetoothctl discoverable off
-    # disconnect wifi to prevent dropouts
-    ifconfig wlan0 down &
+    # disconnect wifi to prevent dropout
+    sudo service gmediarender stop
+    sudo service shairport-sync stop
 fi
 if [ "$action" = "remove" ]; then
     # reenable wifi
-    ifconfig wlan0 up &
+    sudo service shairport-sync start
+    sudo service gmediarender start
     bluetoothctl discoverable on
 fi
 EOF
