@@ -4,8 +4,6 @@ apt-get install hostapd wpasupplicant dnsmasq -y
 update-rc.d -f hostapd remove
 update-rc.d -f dnsmasq remove
 
-#Give HDMI AND AUX PERMISSIONS
-sudo chmod a+w ~/.asoundrc
 
 cat ./templates/interfaces.template >> /etc/network/interface
 
