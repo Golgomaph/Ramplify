@@ -33,12 +33,18 @@ alsa = {
 }
 
 sessioncontrol = {
-  run_this_before_play_begins = "/etc/bt_end.sh";
-  run_this_after_play_ends = "/etc/bt_start.sh";
+  run_this_before_play_begins = "/usr/local/bin/shairportstart.sh"; // make sure the application has executable permission. It it's a script, include the #!... stuff on the first line
+	run_this_after_play_ends = "/usr/local/bin/shairportend.sh"; // make sure the application has executable permission. It it's a script, include the #!... stuff on the first line
   wait_for_completion = "yes";
   session_timeout = 20;
 };
 EOF
+
+exc cp shScripts/shairportstart.sh /usr/local/bin/shairportstart.sh
+exc cp shScripts/shairportend.sh /usr/local/bin/shairportend.sh
+
+exc chmod +x /usr/local/bin/shairportstart.sh
+exc chmod +x /usr/local/bin/shairportend.sh
 
 systemctl enable --now shairport-sync
 echo "Finished."
