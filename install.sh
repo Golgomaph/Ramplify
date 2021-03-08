@@ -67,6 +67,11 @@ echo "---------------------------------------------"
 sudo ./install_ap.sh;
 echo "Installing Access Point finished"
 
+echo "Installing NodeRed"
+echo "---------------------------------------------"
+sudo ./install_nodered.sh;
+echo "Installing NodeRed finished"
+
 echo -n "Installation finished. You may reboot now.. Reboot? >> [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
