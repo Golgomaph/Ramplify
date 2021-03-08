@@ -40,11 +40,11 @@ sessioncontrol = {
 };
 EOF
 
-exc cp shScripts/shairportstart.sh /usr/local/bin/shairportstart.sh
-exc cp shScripts/shairportend.sh /usr/local/bin/shairportend.sh
+sudo cp shScripts/shairportstart.sh /usr/local/bin/shairportstart.sh
+sudo cp shScripts/shairportend.sh /usr/local/bin/shairportend.sh
 
-exc chmod +x /usr/local/bin/shairportstart.sh
-exc chmod +x /usr/local/bin/shairportend.sh
+sudo chmod +x /usr/local/bin/shairportstart.sh
+sudo chmod +x /usr/local/bin/shairportend.sh
 
 systemctl enable --now shairport-sync
 echo "Finished."
