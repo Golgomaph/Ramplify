@@ -72,7 +72,7 @@ echo "---------------------------------------------"
 ./install_nodered.sh -y
 echo "Installing NodeRed finished"
 
-echo -n "Installation finished. You may reboot now.. Reboot? >> [y/N] "
+echo -n "Installation finished. Please reboot now! >> [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
 sudo reboot
