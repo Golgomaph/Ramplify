@@ -7,7 +7,7 @@ update-rc.d -f dnsmasq remove
 
 cat ./templates/interfaces.template >> /etc/network/interface
 
-iface test_network inet dhcp
+#iface test_network inet dhcp
 
 sudo raspi-config nonint do_boot_wait 0
 
