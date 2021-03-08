@@ -5,4 +5,5 @@ yes | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installer
 sudo systemctl enable nodered.service
 
 sudo rm /home/pi/.node-red/settings.js
-sudo cp /home/pi/ramplify/templates/settings.js.template /home/pi/.node-red/
+sudo cp /home/pi/Ramplify/templates/settings.js.template /home/pi/.node-red/
+sudo mv /home/pi/.node-red/settings.js.template /home/pi/.node-red/settings.js
