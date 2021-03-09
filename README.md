@@ -34,8 +34,8 @@ You should now see an empty node-red, if so everything worked so far.
 
 Now follow the steps below:
 ![image](https://user-images.githubusercontent.com/74306376/110522080-d05abf00-8110-11eb-8cdc-b38e293445d5.png)
-![image](https://user-images.githubusercontent.com/74306376/110522298-0a2bc580-8111-11eb-905c-18ffba60329d.png)
-
+![image](https://user-images.githubusercontent.com/74306376/110522645-67277b80-8111-11eb-8170-89afd593bc8a.png)
+![image](https://user-images.githubusercontent.com/74306376/110522427-2d567500-8111-11eb-97bb-9d3cc24f0309.png)
 
 You now have to choose a file to upload to node-red.
 Get the file with the following link: 
