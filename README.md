@@ -35,10 +35,12 @@ You should now see an empty node-red, if so everything worked so far.
 Now follow the steps below:
 ![image](https://user-images.githubusercontent.com/74306376/110522884-b1a8f800-8111-11eb-9fa4-963599c5a782.png)
 ![image](https://user-images.githubusercontent.com/74306376/110522645-67277b80-8111-11eb-8170-89afd593bc8a.png)
-![image](https://user-images.githubusercontent.com/74306376/110522427-2d567500-8111-11eb-97bb-9d3cc24f0309.png)
+![image](https://user-images.githubusercontent.com/74306376/110524113-43653500-8113-11eb-92bb-83a39ad3149f.png)
+![image](https://user-images.githubusercontent.com/74306376/110523877-fd0fd600-8112-11eb-9869-7754713dbbde.png)
 
-You now have to choose a file to upload to node-red.
-Get the requested file with the following link: 
+
+You now have to paste the text included in the following file: https://github.com/Golgomaph/Ramplify/blob/main/webpage_config.json
+
 
 Now select the downloaded file and uploade to node-red.
 
