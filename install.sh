@@ -8,7 +8,7 @@ sudo passwd pi;
 
 echo "Hostname is Ramplify"
 echo "---------------------------------------------"
-echo "192.168.40.1 simple.audio" >> /etc/hosts
+echo "192.168.40.1 ramplify.audio" >> /etc/hosts
 #read -p "Hostname [$(hostname)]: " HOSTNAME
 export HOSTNAME="Ramplify"
 sudo raspi-config nonint do_hostname ${HOSTNAME:-$(hostname)}
