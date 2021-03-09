@@ -33,9 +33,9 @@ To get webpage functionality simply connect to the now available hotspot "Rampli
 You should now see an empty node-red, if so everything worked so far.
 
 Now follow the steps below:
-![image](https://user-images.githubusercontent.com/74306376/110494397-df7f4400-80f3-11eb-97e0-b294fe5c73a7.png)
-![image](https://user-images.githubusercontent.com/74306376/110494436-e6a65200-80f3-11eb-93f3-05a3b8757302.png)
-![image](https://user-images.githubusercontent.com/74306376/110494807-39800980-80f4-11eb-8d04-0102df3f5bc4.png)
+![image](https://user-images.githubusercontent.com/74306376/110522080-d05abf00-8110-11eb-8cdc-b38e293445d5.png)
+![image](https://user-images.githubusercontent.com/74306376/110522298-0a2bc580-8111-11eb-905c-18ffba60329d.png)
+
 
 You now have to choose a file to upload to node-red.
 Get the file with the following link: 
