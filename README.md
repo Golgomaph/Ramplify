@@ -42,7 +42,7 @@ You now have to paste the text included in the following file: https://github.co
 
 
 ![image](https://user-images.githubusercontent.com/74306376/110523877-fd0fd600-8112-11eb-9869-7754713dbbde.png)
-![image](https://user-images.githubusercontent.com/74306376/110524534-d1d9b680-8113-11eb-8b28-393618cc1876.png)
+![image](https://user-images.githubusercontent.com/74306376/110549661-b29e5180-8132-11eb-983d-4893eebb933e.png)
 ![image](https://user-images.githubusercontent.com/74306376/110524951-53c9df80-8114-11eb-91eb-37ff437001f4.png)
 
 
