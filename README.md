@@ -33,7 +33,7 @@ To get webpage functionality simply connect to the now available hotspot "Rampli
 You should now see an empty node-red, if so everything worked so far.
 
 Now follow the steps below:
-![image](https://user-images.githubusercontent.com/74306376/110522080-d05abf00-8110-11eb-8cdc-b38e293445d5.png)
+![image](https://user-images.githubusercontent.com/74306376/110522884-b1a8f800-8111-11eb-9fa4-963599c5a782.png)
 ![image](https://user-images.githubusercontent.com/74306376/110522645-67277b80-8111-11eb-8170-89afd593bc8a.png)
 ![image](https://user-images.githubusercontent.com/74306376/110522427-2d567500-8111-11eb-97bb-9d3cc24f0309.png)
 
