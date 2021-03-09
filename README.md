@@ -25,7 +25,7 @@ https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heil
 - sudo apt-get install git -y
 - git clone https://github.com/Golgomaph/Ramplify
 - cd Ramplify
-- sudo ./install.sh
+- ./install.sh
 
 After installation restart your raspberry pi. The main functions now are successfully installed, but the webpage configuration is missing.
 To get webpage functionality simply connect to the now available hotspot "Ramplify" and enter "192.168.40.1:1880" in your browser.
