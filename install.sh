@@ -17,7 +17,6 @@ CURRENT_PRETTY_HOSTNAME=$(hostnamectl status --pretty)
 CURRENT_PRETTY_HOSTNAME="Ramplify"
 sudo hostnamectl set-hostname --pretty "${PRETTY_HOSTNAME:-${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}}"
 
-echo "192.168.40.1 ramplify.audio" >> /etc/hosts
 #echo "interface wlan0" >> /etc/dhcpcd.conf
 #echo "static ip_address=192.168.40.1" >> /etc/dhcpcd.conf
 #echo "static routers=192.168.0.1" >> /etc/dhcpcd.conf
@@ -66,7 +65,7 @@ echo "Installing NodeRed"
 echo "---------------------------------------------"
 sudo ./install_nodered.sh
 echo "Installing NodeRed finished"
-
+echo "192.168.40.1 ramplify.audio" >> /etc/hosts
 echo -n "Installation finished. Please reboot now! >> [y/N] "
 read REPLY
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
