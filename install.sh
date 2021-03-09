@@ -70,7 +70,7 @@ echo "Installing Access Point finished"
 
 echo "Installing NodeRed"
 echo "---------------------------------------------"
-sudo ./install_nodered.sh -y
+sudo ./install_nodered.sh
 echo "Installing NodeRed finished"
 
 echo -n "Installation finished. Please reboot now! >> [y/N] "
