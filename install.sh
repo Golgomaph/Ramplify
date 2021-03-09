@@ -54,7 +54,8 @@ echo "Installing Access Point finished"
 
 echo "Installing NodeRed"
 echo "---------------------------------------------"
-sudo ./install_nodered.sh
+yes | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+./install_nodered.sh
 echo "Installing NodeRed finished"
 
 echo "192.168.40.1 ramplify.audio" >> /etc/hosts
