@@ -53,11 +53,6 @@ echo "---------------------------------------------"
 sudo ./install-snapcast-client.sh;
 echo "Installing Snapcast finished"
 
-echo "Installing Spotify"
-echo "---------------------------------------------"
-sudo ./install-spotify.sh;
-echo "Installing Spotify finished"
-
 echo "Installing Upnp"
 echo "---------------------------------------------"
 sudo ./install-upnp.sh;
