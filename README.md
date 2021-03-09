@@ -38,9 +38,9 @@ Now follow the steps below:
 ![image](https://user-images.githubusercontent.com/74306376/110522427-2d567500-8111-11eb-97bb-9d3cc24f0309.png)
 
 You now have to choose a file to upload to node-red.
-Get the file with the following link: 
+Get the requested file with the following link: 
 
-Now choose it from your download-section:
+Now select the downloaded file and uploade to node-red.
 
 
 
