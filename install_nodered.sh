@@ -8,7 +8,7 @@ sudo node-red-stop
 sudo cp /home/pi/Ramplify/templates/settings.js.template /home/pi/.node-red/
 sudo mv /home/pi/.node-red/settings.js.template /home/pi/.node-red/settings.js
 
-sudo apt install iptables-persistent -y
+yes | sudo apt install iptables-persistent
 sudo iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT
 sudo iptables -A PREROUTING -t nat -i wlan0 -p tcp --dport 80 -j REDIRECT --to-port 1880
 sudo netfilter-persistent save
