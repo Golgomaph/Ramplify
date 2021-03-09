@@ -48,7 +48,7 @@ You now have to paste the text included in the following file: https://github.co
 
 ## How to use
 
-After installing simply reboot the pi, connect to its hotspot "Ramplify" and access the configuration page via www.ramplify.audio before or after teaching WIFI.
+After installing simply reboot the pi, connect to its hotspot "Ramplify" (password: myramplify123%)and access the configuration page via www.ramplify.audio for teaching wifi and setting configurations.
 
 ## References
 
