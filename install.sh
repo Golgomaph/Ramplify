@@ -12,7 +12,7 @@ echo "---------------------------------------------"
 #echo "static ip_address=192.168.40.1" >> /etc/dhcpcd.conf
 #echo "static routers=192.168.0.1" >> /etc/dhcpcd.conf
 #echo "static domain_name_servers=8.8.8.8 8.8.4.4" >> /etc/dhcpcd.conf
-sudo echo "set" > /etc/passcheck;
+sudo bash -c 'echo "set" > /etc/passcheck'
 
 
 fi;
