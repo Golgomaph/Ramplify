@@ -13,6 +13,13 @@ After installation it offers the following functionalities:
   - Learn new wifi networks / update wifi credentials
   - Further functionalities, including output-change on raspberry (I2S, 3.5mm-jack, HDMI)
 
+## Image Installation
+
+Get the file from OneDrive and flash it to an empty sd card. After booting (may take a while) the hotspot should open automatically. Setup wifi and enjoy!
+
+Download:
+https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/Ears5yHJcQ9CtUgZckBuI3oBo0HlH7ouuwqO1Vu1O_mE1Q?e=QMoMTK
+
 ## Package Installation on stock debian
 
 - sudo apt-get install git -y
@@ -28,19 +35,18 @@ You should now see an empty node-red, if so everything worked so far.
 Now follow the steps below:
 ![image](https://user-images.githubusercontent.com/74306376/110494397-df7f4400-80f3-11eb-97e0-b294fe5c73a7.png)
 ![image](https://user-images.githubusercontent.com/74306376/110494436-e6a65200-80f3-11eb-93f3-05a3b8757302.png)
+![image](https://user-images.githubusercontent.com/74306376/110494807-39800980-80f4-11eb-8d04-0102df3f5bc4.png)
+
+You now have to choose a file to upload to node-red.
+Get the file with the following link: 
+
+Now choose it from your download-section:
 
 
 
 ## How to use
 
 After installing simply reboot the pi, connect to its hotspot "Ramplify" and access the configuration page via www.ramplify.audio before or after teaching WIFI.
-
-## Image Installation
-
-Get the file from OneDrive and flash it to an empty sd card. After booting (may take a while) the hotspot should open automatically. Setup wifi and enjoy!
-
-Download:
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/Ears5yHJcQ9CtUgZckBuI3oBo0HlH7ouuwqO1Vu1O_mE1Q?e=QMoMTK
 
 ## References
 
