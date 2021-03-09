@@ -58,7 +58,7 @@ yes | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installer
 ./install_nodered.sh
 echo "Installing NodeRed finished"
 
-echo "192.168.40.1 ramplify.audio" >> /etc/hosts
+sudo bash -c 'echo "192.168.40.1 ramplify.audio" >> /etc/hosts'
 export HOSTNAME="Ramplify"
 sudo raspi-config nonint do_hostname ${HOSTNAME:-$(hostname)}
 
