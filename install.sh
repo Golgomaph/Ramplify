@@ -19,37 +19,37 @@ fi;
 
 echo "Update raspian"
 echo "---------------------------------------------"
-sudo apt-get update
+#sudo apt-get update
 echo "Update finished"
 
 echo "Upgrade raspian"
 echo "---------------------------------------------"
-sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y;
+#sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y;
 echo "Upgrade finished"
 
 echo "Installing Bluetooth"
 echo "---------------------------------------------"
-sudo ./install-bluetooth.sh;
+#sudo ./install-bluetooth.sh;
 echo "Installing Blueetooth finished"
 
 echo "Installing Shairport"
 echo "---------------------------------------------"
-sudo ./install-shairport.sh;
+#sudo ./install-shairport.sh;
 echo "Installing shairport finished"
 
 echo "Installing Snapcast"
 echo "---------------------------------------------"
-sudo ./install-snapcast-client.sh;
+#sudo ./install-snapcast-client.sh;
 echo "Installing Snapcast finished"
 
 echo "Installing Upnp"
 echo "---------------------------------------------"
-sudo ./install-upnp.sh;
+#sudo ./install-upnp.sh;
 echo "Installing Upnp finished"
 
 echo "Installing Access Point"
 echo "---------------------------------------------"
-sudo ./install_ap.sh;
+#sudo ./install_ap.sh;
 echo "Installing Access Point finished"
 
 echo "Installing NodeRed"
