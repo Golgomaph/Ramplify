@@ -15,7 +15,7 @@ cat ./templates/hostapd.template >> /etc/default/hostapd
 
 
 cat ./templates/hostapd.conf.template >> /etc/hostapd/hostapd.conf
-#hostapd -d /etc/hostapd/hostapd.conf
+hostapd -d /etc/hostapd/hostapd.conf
 cat ./templates/rc.local.template >> /etc/rc.local
 
 sudo systemctl unmask hostapd
