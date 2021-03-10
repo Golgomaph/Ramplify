@@ -31,7 +31,6 @@ After installation restart your raspberry pi. The main functions now are success
 For later steps copy the content of "webpage_config.json" to your clipboard now. 
 
 To do this enter the file in github https://github.com/Golgomaph/Ramplify/blob/main/webpage_config.json and simply copy all of its code.
-![image](https://user-images.githubusercontent.com/74306376/110523877-fd0fd600-8112-11eb-9869-7754713dbbde.png)
 
 
 After rebooting your pi there now should be a accessable Wifi-Hotspot called "Ramplify". To get full webpage functionality connect to it (password: myramplify123%) and enter "192.168.40.1" in your browser.
