@@ -2,6 +2,9 @@
 
 sudo systemctl enable nodered.service
 
+cd ~/.node-red
+sudo npm i node-red-dashboard
+
 sudo node-red-stop
 
 #sudo rm /home/pi/.node-red/settings.js
