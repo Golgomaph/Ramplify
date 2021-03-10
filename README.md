@@ -28,7 +28,7 @@ https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heil
 - ./install.sh
 
 After installation restart your raspberry pi. The main functions now are successfully installed, but the webpage configuration is missing.
-To get webpage functionality simply connect to the now available hotspot "Ramplify" and enter "192.168.40.1:1880" in your browser.
+To get webpage functionality simply connect to the now available hotspot "Ramplify" (password: myramplify123%) and enter "192.168.40.1" in your browser.
 
 You should now see an empty node-red, if so everything worked so far.
 
