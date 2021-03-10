@@ -4,24 +4,13 @@
 # For static IP, consult /etc/dhcpcd.conf and 'man dhcpcd.conf'
 
 # Include files from /etc/network/interfaces.d:
-#source-directory /etc/network/interfaces.d
+source-directory /etc/network/interfaces.d
 
 
-#interface wlan0
-#static ip_address=192.168.40.1
+interface wlan0
+static ip_address=192.168.40.1
 
-#auto wlan0
-#iface wlan0 inet manual
-        #wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
-
-auto lo
-
-iface lo inet loopback
-
-allow-hotplug eth0
-iface eth0 inet dhcp
-
-allow-hotplug wlan0
+auto wlan0
 iface wlan0 inet manual
-	wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
-iface test_network inet dhcp
+        wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+
