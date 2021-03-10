@@ -28,23 +28,27 @@ https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heil
 - ./install.sh
 
 After installation restart your raspberry pi. The main functions now are successfully installed, but the webpage configuration is missing.
-To get webpage functionality simply connect to the now available hotspot "Ramplify" (password: myramplify123%) and enter "192.168.40.1" in your browser.
+For later steps copy the content of "webpage_config.json" to your clipboard now. 
 
-You should now see an empty node-red, if so everything worked so far.
+To do this enter the file in github https://github.com/Golgomaph/Ramplify/blob/main/webpage_config.json and simply copy all of its code.
+![image](https://user-images.githubusercontent.com/74306376/110523877-fd0fd600-8112-11eb-9869-7754713dbbde.png)
+
+
+After rebooting your pi there now should be a accessable Wifi-Hotspot called "Ramplify". To get full webpage functionality connect to it (password: myramplify123%) and enter "192.168.40.1" in your browser.
+
+You should now see an empty "node-red", if so everything worked so far.
 
 Now follow the steps below:
 ![image](https://user-images.githubusercontent.com/74306376/110522884-b1a8f800-8111-11eb-9fa4-963599c5a782.png)
 ![image](https://user-images.githubusercontent.com/74306376/110522645-67277b80-8111-11eb-8170-89afd593bc8a.png)
 ![image](https://user-images.githubusercontent.com/74306376/110524113-43653500-8113-11eb-92bb-83a39ad3149f.png)
 
+Now you need the code you copied before..
 
-You now have to paste the text included in the following file: https://github.com/Golgomaph/Ramplify/blob/main/webpage_config.json
-
-
-![image](https://user-images.githubusercontent.com/74306376/110523877-fd0fd600-8112-11eb-9869-7754713dbbde.png)
 ![image](https://user-images.githubusercontent.com/74306376/110549661-b29e5180-8132-11eb-983d-4893eebb933e.png)
 ![image](https://user-images.githubusercontent.com/74306376/110524951-53c9df80-8114-11eb-91eb-37ff437001f4.png)
 
+Finally reboot your raspberry pi after deploy and everything is set up!
 
 ## How to use
 
