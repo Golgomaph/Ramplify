@@ -18,7 +18,7 @@ After installation it offers the following functionalities:
 Get the file from OneDrive and flash it to an empty sd card. After booting (may take a while) the hotspot should open automatically. Setup wifi and enjoy!
 
 Download:
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/Ears5yHJcQ9CtUgZckBuI3oBo0HlH7ouuwqO1Vu1O_mE1Q?e=QMoMTK
+https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EYUL9JM4UOFDsCwn76h78MgBWZdIN2p7UdSIPyH1cgjI0g?e=D6hSSH
 
 ## Package Installation on stock debian
 
