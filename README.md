@@ -15,39 +15,11 @@ After installation it offers the following functionalities:
 
 ## Image Installation
 
-Get the file from OneDrive and flash it to an empty sd card. After booting (may take a while) the hotspot should open automatically. Setup wifi and enjoy!
+Get the file from OneDrive and flash it to an empty sd card. After booting (may take a while) the hotspot "Ramplify" should open automatically. 
+Connect to it with the passcode "myramplify123%" and then enter "ramplify.audio" to your browser. Follow the steps and enjoy!
 
 Download:
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EYUL9JM4UOFDsCwn76h78MgBWZdIN2p7UdSIPyH1cgjI0g?e=D6hSSH
-
-## Package Installation on stock debian
-
-- sudo apt-get install git -y
-- git clone https://github.com/Golgomaph/Ramplify
-- cd Ramplify
-- ./install.sh
-
-After installation restart your raspberry pi. The main functions now are successfully installed, but the webpage configuration is missing.
-For later steps copy the content of "webpage_config.json" to your clipboard now. 
-
-To do this enter the file in github https://github.com/Golgomaph/Ramplify/blob/main/webpage_config.json and simply copy all of its code.
-
-
-After rebooting your pi there now should be a accessable Wifi-Hotspot called "Ramplify". To get full webpage functionality connect to it (password: myramplify123%) and enter "192.168.40.1" in your browser.
-
-You should now see an empty "node-red", if so everything worked so far.
-
-Now follow the steps below:
-![image](https://user-images.githubusercontent.com/74306376/110522884-b1a8f800-8111-11eb-9fa4-963599c5a782.png)
-![image](https://user-images.githubusercontent.com/74306376/110522645-67277b80-8111-11eb-8170-89afd593bc8a.png)
-![image](https://user-images.githubusercontent.com/74306376/110524113-43653500-8113-11eb-92bb-83a39ad3149f.png)
-
-Now you need the code you copied before..
-
-![image](https://user-images.githubusercontent.com/74306376/110549661-b29e5180-8132-11eb-983d-4893eebb933e.png)
-![image](https://user-images.githubusercontent.com/74306376/110524951-53c9df80-8114-11eb-91eb-37ff437001f4.png)
-
-Finally reboot your raspberry pi after deploy and everything is set up!
+https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EYUL9JM4UOFDsCwn76h78MgBWZdIN2p7UdSIPyH1cgjI0g?e=A7nxOZ
 
 ## How to use
 
