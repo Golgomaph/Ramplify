@@ -19,7 +19,7 @@ Get the file from OneDrive and flash it to an empty sd card. After booting (may 
 Connect to it with the passcode "myramplify123%" and then enter "ramplify.audio" to your browser. Follow the steps and enjoy!
 
 Download Ramplify V0.2
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EdnWAp_nTjJHr6AmvYN5BkQBdHw_F6RuzhPoqq3VmBHytg?e=taPdln
+https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EdnWAp_nTjJHr6AmvYN5BkQBdHw_F6RuzhPoqq3VmBHytg?e=tGkYwz
 
 ## How to use
 
