@@ -23,7 +23,7 @@ https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heil
 
 ## How to use
 
-After installing simply reboot the pi, connect to its hotspot "Ramplify" (password: myramplify123%)and access the configuration page via www.ramplify.audio for teaching wifi and setting configurations.
+After installing simply reboot the pi, connect to its hotspot "Ramplify" (password: myramplify123%)and access the configuration page via www.ramplify.audio for teaching wifi and setting configurations. The pi-account password in raspian is "ramplify" .. change that immediately!
 
 ## References
 
