@@ -18,8 +18,8 @@ After installation it offers the following functionalities:
 Get the file from OneDrive and flash it to an empty sd card. After booting (may take a while) the hotspot "Ramplify" should open automatically. 
 Connect to it with the passcode "myramplify123%" and then enter "ramplify.audio" to your browser. Follow the steps and enjoy!
 
-Download Software V0.3
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EY562QuEiEBEsyStT7BE4kcBKgIoECLmlPST1gDUlQ0xxA?e=xYhX70
+Download Software V0.4
+https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EbIsx7CABVVPvOOS2FgNXOEBwXcqBQ_rMEX2ezZEDgGX0g?e=sSUqXg
 
 ## How to use
 
