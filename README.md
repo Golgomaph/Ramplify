@@ -29,4 +29,4 @@ After installing simply reboot the pi, connect to its hotspot "Ramplify" (passwo
 - [gmrender-resurrect: Headless UPnP Renderer](http://github.com/hzeller/gmrender-resurrect)
 - [Snapcast: Synchronous audio player](https://github.com/badaix/snapcast)
 - [Access Point](https://gist.github.com/ajfisher/a84889e64565d7a74888)
-- https://nodered.org/
+- [NODE-RED](https://nodered.org/)
