@@ -1,6 +1,6 @@
 # Ramplify
 
-There is a license for this repository! See #License for further information.
+There is a license for this repository! See below for further information.
 
 
 Ramplify offers funcitonality for streaming audio via bluetooth, airplay and upnp to your raspberry pi and to other devices connected to it.
