@@ -33,9 +33,8 @@ alsa = {
 }
 
 sessioncontrol = {
-  run_this_before_play_begins = "/usr/local/bin/shairportstart.sh"; // make sure the application has executable permission. It it's a script, include the #!... stuff on the first line
-	run_this_after_play_ends = "/usr/local/bin/shairportend.sh"; // make sure the application has executable permission. It it's a script, include the #!... stuff on the first line
-  wait_for_completion = "yes";
+  run_this_before_play_begins = "/usr/local/bin/shairportstart.sh"; 
+	run_this_after_play_ends = "/usr/local/bin/shairportend.sh";
   session_timeout = 20;
 };
 EOF
