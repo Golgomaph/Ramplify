@@ -28,5 +28,5 @@ After installing simply reboot the pi, connect to its hotspot "Ramplify" (passwo
 - [Raspotify: Spotify Connect client for the Raspberry Pi that Just Works™](https://github.com/dtcooper/raspotify)
 - [gmrender-resurrect: Headless UPnP Renderer](http://github.com/hzeller/gmrender-resurrect)
 - [Snapcast: Synchronous audio player](https://github.com/badaix/snapcast)
-- [Access Point](https://gist.github.com/ajfisher/a84889e64565d7a74888)
+- [Access Point by ajfisher](https://gist.github.com/ajfisher/a84889e64565d7a74888)
 - [NODE-RED](https://nodered.org/)
