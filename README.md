@@ -14,8 +14,8 @@ After installation Ramplify offers the following functionalities:
 
 Get the file via the download link below and flash it to an empty sd card. Put it into your raspberry pi 3, 4 or zero. That's it!
 
-Download Software V0.10
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EZgwkpL0hNJNo3auMDneFEwB2IFxooQCE_Q87Z8b2ztLpA?e=MXmu3d
+Download Software V0.11
+https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EfXvhaP9V6lMuc7-tMUXMKEBiBsGmY4vtFMLbgOsLUIZPQ?e=1wNBiZ
 
 ## How to use
 
