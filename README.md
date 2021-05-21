@@ -7,7 +7,7 @@ Simply download, flash to a sd-card and enjoy!
 After installation Ramplify offers the following functionalities:
 - Automated Access Point if no WIFI is detected after boot
 - Always reachable homepage hosted by the pi powered by node-red
-- Change hostname, add wifi or change the accessibility of your raspberry pi simpl
+- Change hostname, add wifi or change the accessibility of your raspberry pi
 - Further functionalities, including output-change on raspberry (I2S, 3.5mm-jack, HDMI)
 
 ## Image Installation
@@ -19,7 +19,7 @@ https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heil
 
 ## How to use
 
-After installing simply reboot the pi, connect to its hotspot "Ramplify" (password: myramplify123%) and access the configuration page via www.ramplify.audio for teaching wifi and change configurations. The pi-account password in raspian is "ramplify" .. change that immediately!
+After installing simply reboot the pi, connect to its hotspot "Ramplify" (password: myramplify123%) and access the configuration page via www.ramplify.audio for teaching wifi and change configurations. The pi-account password in Raspian is "ramplify" .. change that immediately!
 
 ## References
 
