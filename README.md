@@ -26,7 +26,7 @@ https://bwsyncandshare.kit.edu/s/dm6EnfwaExpejkd?path=%2FRamplify%2FRamplify%20v
 
 ## How to use
 
-After installing simply reboot the pi, connect to its hotspot "Ramplify" (password: myramplify123%) and access the configuration page via www.ramplify.audio for teaching wifi and change configurations. The pi-account password in Raspian is "ramplify" .. change that immediately!
+After installing simply reboot the pi, connect to its hotspot "Ramplify" (password: myramplify123%) and access the configuration page via ramplify.audio for teaching wifi and change configurations. The pi-account password in Raspian is "ramplify" .. change that immediately!
 
 ## References
 
