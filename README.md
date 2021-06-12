@@ -18,8 +18,7 @@ Download Software for Raspberry Pi 3,4 and Zero (no AAC Codec implemented)
 https://bwsyncandshare.kit.edu/s/dm6EnfwaExpejkd?path=%2FRamplify%2FRamplify%20v1.0%2FV1.0
 
 Download Software for Raspberry Pi 3 and 4 (AAC Codec implemented)                                                  
-https://bwsyncandshare.kit.edu/s/dm6EnfwaExpejkd?path=%2FRamplify%2FRamplify%20v1.0%2FV1.0_AAC
-
+https://bwsyncandshare.kit.edu/s/dm6EnfwaExpejkd/download
 
 
 
