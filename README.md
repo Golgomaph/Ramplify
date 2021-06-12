@@ -15,10 +15,10 @@ After installation Ramplify offers the following functionalities:
 Get the file via the download link below and flash it to an empty sd card. Put it into your raspberry pi 3, 4 or zero. That's it!
 
 Download Software for Raspberry Pi 3,4 and Zero (no AAC Codec implemented)                                                             
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EdJX2HswBRRCjQ9cYZ2zEkMBYHid41Pa7ZxjKHUFAEvOmg?e=iTvZts
+https://bwsyncandshare.kit.edu/s/dm6EnfwaExpejkd?path=%2FRamplify%2FRamplify%20v1.0%2FV1.0
 
 Download Software for Raspberry Pi 3 and 4 (AAC Codec implemented)                                                  
-https://studhsheilbronnde-my.sharepoint.com/:u:/g/personal/tbreunig_stud_hs-heilbronn_de/EfZdRcmUAadPj1IyiASlXbwBlQOqmIzgkj-Zkk8qy84_Vw?e=lwrcsb
+https://bwsyncandshare.kit.edu/s/dm6EnfwaExpejkd?path=%2FRamplify%2FRamplify%20v1.0%2FV1.0_AAC
 
 
 
