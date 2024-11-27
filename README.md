@@ -1,6 +1,6 @@
 # Ramplify
 
-Ramplify offers funcitonality for streaming audio via bluetooth, airplay and upnp to your raspberry pi and to other devices connected to it.
+Ramplify offers functionality for streaming audio via bluetooth, airplay and upnp to your raspberry pi and to other devices connected to it.
 
 Simply download, flash to a sd-card and enjoy!
 
